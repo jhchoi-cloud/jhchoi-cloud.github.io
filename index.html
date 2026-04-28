@@ -1,11 +1,35 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jihoon Choi</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#top">Jihoon Choi</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#experience">Professional Experience</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
 
 <!-- HERO -->
 <section id="top">
   <div class="hero-inner">
-    <img class="hero-photo" src="{{ '/assets/profile.jpg' | relative_url }}" alt="Jihoon Choi">
+    <img class="hero-photo" src="assets/profile.jpg" alt="Jihoon Choi">
     <div class="hero-text">
       <div class="hero-name">Jihoon Choi</div>
       <div class="hero-title">Ph.D. | Postdoctoral Researcher</div>
@@ -13,7 +37,7 @@ layout: default
       <div class="hero-links">
         <a class="btn btn-solid" href="mailto:jhchoi96@krict.re.kr">Email</a>
         <a class="btn" href="https://scholar.google.com/citations?user=vOBjKuQAAAAJ" target="_blank">Google Scholar</a>
-        <a class="btn" href="{{ '/assets/CV_Jihoon_Choi.pdf' | relative_url }}" target="_blank">CV (PDF)</a>
+        <a class="btn" href="assets/CV_Jihoon_Choi.pdf" target="_blank">CV (PDF)</a>
       </div>
     </div>
   </div>
@@ -247,3 +271,11 @@ layout: default
     </div>
   </div>
 </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Jihoon Choi &middot; Daejeon, South Korea</p>
+  </footer>
+</body>
+</html>
