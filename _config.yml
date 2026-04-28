@@ -1,0 +1,14 @@
+title: Jihoon Choi
+description: Postdoctoral Researcher | Membrane Science & Engineering
+url: ""
+baseurl: ""
+
+name: Jihoon Choi
+title_position: Postdoctoral Researcher
+affiliation: Korea Research Institute of Chemical Technology (KRICT)
+location: Daejeon, South Korea
+email: jhchoi96@krict.re.kr
+google_scholar: https://scholar.google.com/citations?user=vOBjKuQAAAAJ
+
+markdown: kramdown
+permalink: pretty
